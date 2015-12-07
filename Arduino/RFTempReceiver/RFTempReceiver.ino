@@ -2,7 +2,8 @@
 #include <SPI.h>
 #define BUFF_SIZE 3
 #define RX_PIN 6
-#define ENABLE_LCD
+/* Quita el comentario para habilitar la salida a LCD 16x2 */
+//#define ENABLE_LCD
 #define ENABLE_SERIAL
 #ifdef ENABLE_LCD
 #include <LiquidCrystal.h>
